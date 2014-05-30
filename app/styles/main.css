@@ -1,0 +1,15 @@
+body{
+  background-color: #34495e;
+  color: #ecf0f1 ;
+}
+.title{
+  padding: 20px 0;
+
+  text-transform: capitalize;
+  font-variant: small-caps;
+  font-weight: bolder;
+  letter-spacing: 2;
+  font-size: 5rem;
+  color: #ecf0f1;
+}
+/*#ecf0f1*/

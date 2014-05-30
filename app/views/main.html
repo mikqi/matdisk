@@ -1,0 +1,10 @@
+<div class="row" ng-controller="MainCtrl">
+    <select ng-model="myCountry" name="negara" id="negara" class="form-control" >
+      <option  value="{{bangsa}}"
+               ng-repeat="bangsa in Negara" >
+        {{bangsa.negara}} -
+        {{bangsa.kodeNegara}}
+      </option>
+    </select>
+  <p>{{myCountry}}</p>
+</div>
