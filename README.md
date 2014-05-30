@@ -5,19 +5,19 @@ Applikasi ini untuk memenuhi prasyarat mata kuliah Matematika Diskrit.
 
 Aplikasi ini dibuat menggunakan teknologi : 
 
-1. Angular JS
-2. jQuery
+1. [Angular JS] (https://github.com/angular/angular.js)
+2. [jQuery] (https://jquery.com/)
 3. JavaScript
 4. HTML5
 5. CSS3
-6. iban.js
-7. Bootstrap 3.1.0
+6. [iban.js] (https://github.com/arhs/iban.js)
+7. [Bootstrap] (https://github.com/twbs/bootstrap)
 
 Yang dibutuhkan untuk menjalankan aplikasi ini :
 
-1. NodeJS
-2. grunt
-3. bower
+1. [NodeJS] (https://nodejs.org)
+2. [grunt] (https://gruntjs.com)
+3. [bower] (https://bower.io)
 
 Cara menggunakan/menginstall di komputer anda :
 
