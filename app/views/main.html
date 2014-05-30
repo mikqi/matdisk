@@ -1,10 +1,26 @@
 <div class="row" ng-controller="MainCtrl">
-    <select ng-model="myCountry" name="negara" id="negara" class="form-control" >
-      <option  value="{{bangsa}}"
-               ng-repeat="bangsa in Negara" >
-        {{bangsa.negara}} -
-        {{bangsa.kodeNegara}}
-      </option>
-    </select>
-  <p>{{myCountry}}</p>
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+      <select ng-model="myCountry" ng-change="addCountry()" class="form-control main-form" name="negara" id="negara"
+              required="">
+        <option value="" selected default>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pilih Negara</option>
+        <option value="{{negara}}" ng-repeat="negara in Negara">{{negara.negara}}</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2 col-sm-offset-2">
+      <input type="text" ng-change="validate()" id="kodeBank" ng-model="kodeLokal" class="form-control main-form"
+             style="width:190px" required placeholder="Code Bank">
+    </div>
+    <div class="col-sm-6">
+      <input type="text" ng-change="validate()" id="BBAN" ng-model="kodeBban" class="form-control main-form" required
+             placeholder="Number BBAN">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4 col-sm-offset-4">
+      <a ng-href="#result" ng-click="sendData()" class="btn btn-success btn-block main-form">CHECK</a>
+    </div>
+  </div>
 </div>

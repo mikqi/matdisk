@@ -5,7 +5,8 @@ angular
     'ngCookies',
     'ngResource',
     'ngSanitize',
-    'ngRoute'
+    'ngRoute',
+    'ngAnimate'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -13,9 +14,9 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/mamam',{
-        templateUrl: 'views/mamam.html',
-        controller: 'ScndCtrl'
+      .when('/result', {
+        templateUrl: 'views/hasil.html',
+        controller: 'ResultCtrl'
       })
       .otherwise({
         redirectTo: '/'
