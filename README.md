@@ -6,7 +6,7 @@ Applikasi ini untuk memenuhi prasyarat mata kuliah Matematika Diskrit.
 Aplikasi ini dibuat menggunakan teknologi : 
 
 1. [Angular JS] (https://github.com/angular/angular.js)
-2. [jQuery] (https://jquery.com/)
+2. [jQuery] (http://jquery.com/)
 3. JavaScript
 4. HTML5
 5. CSS3
@@ -15,9 +15,9 @@ Aplikasi ini dibuat menggunakan teknologi :
 
 Yang dibutuhkan untuk menjalankan aplikasi ini :
 
-1. [NodeJS] (https://nodejs.org)
-2. [grunt] (https://gruntjs.com)
-3. [bower] (https://bower.io)
+1. [NodeJS] (http://nodejs.org)
+2. [grunt] (http://gruntjs.com)
+3. [bower] (http://bower.io)
 
 Cara menggunakan/menginstall di komputer anda :
 
