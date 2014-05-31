@@ -7,6 +7,9 @@ Matematika Diskrit - Internasional Bank Account Number Validation
 
 Applikasi ini untuk memenuhi prasyarat mata kuliah Matematika Diskrit.
 
+[Demo] (http://mikqi.github.io/matdisk/)
+
+
 Aplikasi ini dibuat menggunakan teknologi : 
 
 1. [Angular JS] (https://github.com/angular/angular.js)
